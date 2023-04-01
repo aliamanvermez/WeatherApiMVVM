@@ -27,13 +27,6 @@ class WAPWeatherViewController: UIViewController {
     }
     
     func createUI() {
-        
-        if let navController = self.navigationController {
-            print("açıkk")
-        }else {
-            print("kapalı")
-        }
-        
         view.addSubview(collectionView)
         self.assignBackground(named: "background_image")
         collectionView.backgroundColor = .clear
