@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  WeatherAPISehirler
+//  WeatherApiMVVM
 //
-//  Created by Ali Amanvermez on 29.03.2023.
+//  Created by Ali Amanvermez on 26.03.2023.
 //
 
 import UIKit
@@ -10,12 +10,10 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
-    
+
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = UINavigationController(rootViewController: ViewController())
-        window?.makeKeyAndVisible()
+        // Override point for customization after application launch.
         return true
     }
 
